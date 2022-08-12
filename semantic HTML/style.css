@@ -12,7 +12,7 @@ header {
 
 /* Create three equal columns that floats next to each other */
 section {
-  width
+  width: 100%
 }
 
 main {
