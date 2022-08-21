@@ -1,15 +1,55 @@
-header {
+/* header {
+    
+} */
+
+.head-blog {
     display: flex;
-    /* justify-content: space-between; */
+    flex-direction: column;
+    position: absolute;
+    color: rgb(139, 98, 27);
+    top: 18%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    margin-top: 4rem;
 }
 
-header h1 {
-    flex-direction: row;
+.head-blog h1 {
+    font-size: 72px;
+}
+
+
+.head-blog p {
+    margin: 1rem 0 -4rem;
+    font-size: 20px;
 }
 
 nav {
-    margin: 0%;
-    height: 0%;
-    /* display: flex; */
-    /* align-items:flex-start; */
+    /* width: 100% ; */
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 2% 4% ;
+    color: rgb(139, 98, 27);
+    /* justify-content: space-between; */
+}
+
+.links {
+    /* background-color: aqua; */
+    text-align: right;
+}
+
+.links ul li {
+    display: inline-block;
+    padding: 8px;
+    position: relative;
+}
+
+#camels-posts article figure {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    gap: calc(var(--padding) / 2);
+    margin-bottom: var(--margin);
+    order: -1;
 }

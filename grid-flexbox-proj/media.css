@@ -1,0 +1,21 @@
+@media only screen and (max-width: 700px){
+    header {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 50px;
+        grid-template-areas: 
+        "header"
+        "main"
+        "sidebar"
+        "footer";
+        ;
+    }
+
+    .head-blog h1 {
+        font-size: 40px;
+    }
+
+    .links ul li {
+        /* display: block; */
+    }
+    
+}
